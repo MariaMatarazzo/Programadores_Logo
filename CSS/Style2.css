@@ -119,5 +119,20 @@ footer {
     width: 100%;
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .imagem-lado-a-lado {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #videos video {
+        width: 100%;
+    }
+}
+
 
 
